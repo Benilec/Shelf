@@ -3,27 +3,53 @@
   padding: 0;
 }
 
-.header{
-  background: gray;
-  height: 100px;
+html {
+  margin: 0 auto;
+  width: 1000px;
+  height: 800px;
 }
 
-.info{
+section {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: 
+  "header"
+  "info"
+  "images"
+  "paginator"
+  "footer"
+  ;  
+}
+
+.header {
+  grid-area: header;
+  background-image: url(/img/header-01.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 100%;
+}
+
+.header img {
+  width: 100%;
+}
+
+.info {
   background: greenyellow;
-  height: 100px;
+  grid-area: info;
 }
 
-.images{
+.images {
   background: peachpuff;
-  height: 100px;
+  grid-area: images;
 }
 
-.paginator{
+.paginator {
   background: rosybrown;
-  height: 100px;
+  grid-area: paginator;
 }
 
-.footer{
+.footer {
   background: lightcoral;  
-  height: 100px;
+  grid-area: footer;
 }
