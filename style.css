@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-html {
+body {
   margin: 0 auto;
   width: 1000px;
   height: 800px;
@@ -11,7 +11,7 @@ html {
 
 section {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 1fr;
   grid-template-areas: 
   "header"
   "info"
@@ -24,15 +24,16 @@ section {
 .header {
   grid-area: header;
   background-image: url(/img/header-01.jpg);
-  background-size: contain;
+  background-size: 100% 150px; /*size width 100% och 150px i height*/
   background-repeat: no-repeat;
-  height: 150px;
-  width: 100%;
+  height: 150px; /*japp, den behövs*/
 }
 
+/* 
 .header img {
   width: 100%;
 }
+*/
 
 .info {
   background: greenyellow;
