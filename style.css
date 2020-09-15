@@ -19,9 +19,9 @@ section {
 .header {
   grid-area: header;
   background-image: url(/img/header-01.jpg);
-  background-size: 100% 225px; /*size width 100% och 150px i height*/
+  background-size: 100% 225px;
   background-repeat: no-repeat;
-  height: 225px; /*japp, den behövs*/
+  height: 225px; 
   color: #fff;
   font-family: 'Raleway', sans-serif;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.90);
