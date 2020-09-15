@@ -25,6 +25,7 @@ section {
   color: #fff;
   font-family: 'Raleway', sans-serif;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.90);
+  
 }
 
 .headLine {
@@ -43,20 +44,24 @@ h1 {
 nav {
   background-color: rgba(0, 0, 0, 0.50);
   font-size: 12px;
+  line-height: 30px;
   border-bottom: 4px solid rgb(0, 99, 161);
   height: 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: relative;
+  bottom: -83px;
 }
 
 nav ul {
   list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  
 }
 
 nav ul li {
   display: inline;
 }
+
 
 /* 
 .header img {
