@@ -2,6 +2,7 @@ body {
   margin: 0 auto;
   width: 600px;
   height: 1000px;
+  font-family: 'Raleway', sans-serif;
 }
 
 section {
@@ -23,7 +24,6 @@ section {
   background-repeat: no-repeat;
   height: 225px; 
   color: #fff;
-  font-family: 'Raleway', sans-serif;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.90);
   
 }
@@ -63,15 +63,17 @@ nav ul li {
 }
 
 
-/* 
-.header img {
-  width: 100%;
+#main {
+  margin: 20px;
 }
-*/
+
+#main p {
+  font-size: 12px;
+} 
 
 .info {
-  background: greenyellow;
   grid-area: info;
+  color: rgba(0, 0, 0, 0.76);
 }
 
 .images {
