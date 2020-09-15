@@ -19,15 +19,43 @@ section {
 .header {
   grid-area: header;
   background-image: url(/img/header-01.jpg);
-  background-size: 100% 150px; /*size width 100% och 150px i height*/
+  background-size: 100% 225px; /*size width 100% och 150px i height*/
   background-repeat: no-repeat;
-  height: 150px; /*japp, den behövs*/
+  height: 225px; /*japp, den behövs*/
   color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.90);
 }
 
 .headLine {
-padding: 5%;
+  margin: 30px;
+}
+
+h1 {
+  margin: 0;  
+}
+
+#tagLine {
+  margin: 0.5em 0;
+  font-size: 11px;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.50);
+  font-size: 12px;
+  border-bottom: 4px solid rgb(0, 99, 161);
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
 }
 
 /* 
