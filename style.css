@@ -25,7 +25,6 @@ section {
   height: 225px; 
   color: #fff;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.90);
-  
 }
 
 .headLine {
@@ -74,67 +73,54 @@ nav ul li {
 .info {
   grid-area: info;
   color: rgba(0, 0, 0, 0.76);
+  margin-bottom: 35px;
 }
 
 .images {
   grid-area: images;
   display: grid;
+  text-align: center;
   gap: 14px;
   grid-template-areas: 
   "img1 img2 img3 img4"
   "img5 img6 img7 img8";
 }
 
-/* text align funkar inte */
-/*all comments in english, ***to make the aligment work, 
-  you can change span to div or even better/easier,
-  move line 95 to 82 */
-
 .caption {
   font-size: 12px;
-  text-align: center;
 }
 
 #img1 {
   grid-area: img1;
-  /* width: 150px; */
 }
 
 #img2 {
   grid-area: img2;
-  /* width: 150px; */
 }
 
 #img3 {
   grid-area: img3;
-  /* width: 150px; */
 }
 
 #img4 {
   grid-area: img4;
-  /* width: 150px; */
 }
 
 #img5 {
   grid-area: img5;
-  /* width: 150px; */
 }
 
 #img6 {
   grid-area: img6;
-  /* width: 150px; */
 }
 
 #img7 {
   grid-area: img7;
-  /* width: 150px; */
 }
 
 #img8 {
   grid-area: img8;
-  /* width: 150px; */
 }
- /* change value on one place, or 8 places? */
 #img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8 {
   width: 150px;
 } 
