@@ -86,11 +86,58 @@ nav ul li {
 }
 
 /* text align funkar inte */
+/*all comments in english, ***to make the aligment work, 
+  you can change span to div or even better/easier,
+  move line 95 to 82 */
 
 .caption {
   font-size: 12px;
   text-align: center;
 }
+
+#img1 {
+  grid-area: img1;
+  /* width: 150px; */
+}
+
+#img2 {
+  grid-area: img2;
+  /* width: 150px; */
+}
+
+#img3 {
+  grid-area: img3;
+  /* width: 150px; */
+}
+
+#img4 {
+  grid-area: img4;
+  /* width: 150px; */
+}
+
+#img5 {
+  grid-area: img5;
+  /* width: 150px; */
+}
+
+#img6 {
+  grid-area: img6;
+  /* width: 150px; */
+}
+
+#img7 {
+  grid-area: img7;
+  /* width: 150px; */
+}
+
+#img8 {
+  grid-area: img8;
+  /* width: 150px; */
+}
+ /* change value on one place, or 8 places? */
+#img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8 {
+  width: 150px;
+} 
 
 .paginator {
   background: rosybrown;
@@ -100,44 +147,4 @@ nav ul li {
 .footer {
   background: lightcoral;  
   grid-area: footer;
-}
-
-#img1 {
-  grid-area: img1;
-  width: 150px;
-}
-
-#img2 {
-  grid-area: img2;
-  width: 150px;
-}
-
-#img3 {
-  grid-area: img3;
-  width: 150px;
-}
-
-#img4 {
-  grid-area: img4;
-  width: 150px;  
-}
-
-#img5 {
-  grid-area: img5;
-  width: 150px;
-}
-
-#img6 {
-  grid-area: img6;
-  width: 150px;
-}
-
-#img7 {
-  grid-area: img7;
-  width: 150px;
-}
-
-#img8 {
-  grid-area: img8;
-  width: 150px;
 }
