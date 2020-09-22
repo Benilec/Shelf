@@ -132,6 +132,17 @@ nav ul li {
   margin-bottom: 40px;
 }
 
+.page {
+  padding: 5px 10px;
+  background: rgb(244, 241, 241);
+  border-radius: 2px;
+}
+
+.active {
+  background: rgba(0, 98, 158);
+  color: white;
+}
+
 .footer {
   background: rgba(0, 98, 158);
   grid-area: footer;
