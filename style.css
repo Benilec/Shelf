@@ -3,6 +3,7 @@ body {
   width: 600px;
   height: 1000px;
   font-family: 'Raleway', sans-serif;
+  background: rgb(100, 100, 100);
 }
 
 section {
@@ -63,7 +64,8 @@ nav ul li {
 
 
 #main {
-  margin: 20px;
+  padding: 30px;
+  background: white;
 }
 
 #main p {
@@ -147,25 +149,49 @@ nav ul li {
   background: rgba(0, 98, 158);
   grid-area: footer;
   height: 225px;
-  margin-bottom: 20px;
+  display: grid;
+  grid-template-areas: 
+  "logo help help help"
+  "logo text text text"
+  ". btn . ."
+  ". btn . .";
 }
 
 #liveChat {
   background: rgba(0, 98, 158);
   color: white;
-  margin: 0 0 0 100px;
-  height: 26px;
-  border-style: solid;
-  border-color: white;
+  height: 35px;
+  width: 90px;
+  border: 2px solid white;
+  grid-area: btn;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .help {
   font-size: 1.17em;
   color: white;
-  margin: 0 0 0 100px;
+  grid-area: help;
+  display: flex;
+  align-items: flex-end;
 }
 
 .pFooter {
   color: white;
-  margin: 0 60px 0 100px;
+  grid-area: text;
+  margin: 0 50px 0 0;
+  line-height: 20px;
+}
+
+.logo {
+  grid-area: logo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 80px;
+  margin: 0 30px 0 50px;
 }
